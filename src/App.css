@@ -1,0 +1,129 @@
+/* App.css */
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    width: 400px;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  button.sign-in {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sing-out{
+    background-color: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sign-in p {
+    font-size: 1rem;
+  }
+  
+  .ChatRoom {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .message {
+    display: flex;
+    margin: 10px;
+  }
+  
+  .message img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .sent {
+    justify-content: flex-end;
+  }
+  
+  .received {
+    justify-content: flex-start;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* Add these styles for the Delete All Messages button */
+.deleteBtn {
+    background-color: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: sticky;
+  }
+  
+  button.delete-messages:hover {
+    background-color: #E64A19;
+  }
+  .chat-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    min-height: 500px;
+    height: auto;
+    box-sizing: border-box;
+    position: sticky;
+    bottom: 0;
+  }
+  .chat-input-container form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .chat-input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .chat-input-container button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
